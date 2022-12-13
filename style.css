@@ -2,7 +2,15 @@
 
 body {
   margin: 0;
-  font:normal 75% Arial, Helvetica, sans-serif;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+div{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+h1 {
+  color: white;
 }
 
 canvas {
@@ -25,7 +33,7 @@ canvas {
 
 /* ---- stats.js ---- */
 
-.count-particles{
+.count-particles {
   background: #000022;
   position: absolute;
   top: 48px;
@@ -41,20 +49,20 @@ canvas {
   font-weight: bold;
 }
 
-.js-count-particles{
+.js-count-particles {
   font-size: 1.1em;
 }
 
 #stats,
-.count-particles{
+.count-particles {
   -webkit-user-select: none;
 }
 
-#stats{
+#stats {
   border-radius: 3px 3px 0 0;
   overflow: hidden;
 }
 
-.count-particles{
+.count-particles {
   border-radius: 0 0 3px 3px;
 }
