@@ -6,9 +6,18 @@ body {
 }
 div{
   position: absolute;
+  left: 0; 
+  right: 0; 
+  top: 0;
+  bottom: 0; 
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+/* Center Child Elements of Absolute Positioned Element */
+/* div{
+  position: absolute;
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
   left: 0; 
   right: 0; 
@@ -18,7 +27,8 @@ div{
   width: fit-content;
   height: fit-content;
   border: 1px solid seagreen;
-}
+} */
+
 h1 {
   color: white;
   padding: 5px;
